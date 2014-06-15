@@ -1,0 +1,275 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		44622923194DAD0F0001510B /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 44622922194DAD0F0001510B /* CoreFoundation.framework */; };
+		44622929194DAD0F0001510B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 44622927194DAD0F0001510B /* InfoPlist.strings */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4462291F194DAD0F0001510B /* Hg9Search.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Hg9Search.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		44622922194DAD0F0001510B /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
+		44622926194DAD0F0001510B /* Hg9Search-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Hg9Search-Info.plist"; sourceTree = "<group>"; };
+		44622928194DAD0F0001510B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		4462292A194DAD0F0001510B /* Hg9Search-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Hg9Search-Prefix.pch"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4462291C194DAD0F0001510B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				44622923194DAD0F0001510B /* CoreFoundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		44622916194DAD0E0001510B = {
+			isa = PBXGroup;
+			children = (
+				44622924194DAD0F0001510B /* Hg9Search */,
+				44622921194DAD0F0001510B /* Frameworks */,
+				44622920194DAD0F0001510B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		44622920194DAD0F0001510B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4462291F194DAD0F0001510B /* Hg9Search.bundle */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		44622921194DAD0F0001510B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				44622922194DAD0F0001510B /* CoreFoundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		44622924194DAD0F0001510B /* Hg9Search */ = {
+			isa = PBXGroup;
+			children = (
+				44622925194DAD0F0001510B /* Supporting Files */,
+			);
+			path = Hg9Search;
+			sourceTree = "<group>";
+		};
+		44622925194DAD0F0001510B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				44622926194DAD0F0001510B /* Hg9Search-Info.plist */,
+				44622927194DAD0F0001510B /* InfoPlist.strings */,
+				4462292A194DAD0F0001510B /* Hg9Search-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4462291E194DAD0F0001510B /* Hg9Search */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4462292D194DAD0F0001510B /* Build configuration list for PBXNativeTarget "Hg9Search" */;
+			buildPhases = (
+				4462291B194DAD0F0001510B /* Sources */,
+				4462291C194DAD0F0001510B /* Frameworks */,
+				4462291D194DAD0F0001510B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Hg9Search;
+			productName = Hg9Search;
+			productReference = 4462291F194DAD0F0001510B /* Hg9Search.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		44622917194DAD0E0001510B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = hogehoge999;
+			};
+			buildConfigurationList = 4462291A194DAD0E0001510B /* Build configuration list for PBXProject "Hg9Search" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 44622916194DAD0E0001510B;
+			productRefGroup = 44622920194DAD0F0001510B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4462291E194DAD0F0001510B /* Hg9Search */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4462291D194DAD0F0001510B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				44622929194DAD0F0001510B /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4462291B194DAD0F0001510B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		44622927194DAD0F0001510B /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				44622928194DAD0F0001510B /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4462292B194DAD0F0001510B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		4462292C194DAD0F0001510B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		4462292E194DAD0F0001510B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Hg9Search/Hg9Search-Prefix.pch";
+				INFOPLIST_FILE = "Hg9Search/Hg9Search-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		4462292F194DAD0F0001510B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Hg9Search/Hg9Search-Prefix.pch";
+				INFOPLIST_FILE = "Hg9Search/Hg9Search-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4462291A194DAD0E0001510B /* Build configuration list for PBXProject "Hg9Search" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4462292B194DAD0F0001510B /* Debug */,
+				4462292C194DAD0F0001510B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4462292D194DAD0F0001510B /* Build configuration list for PBXNativeTarget "Hg9Search" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4462292E194DAD0F0001510B /* Debug */,
+				4462292F194DAD0F0001510B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 44622917194DAD0E0001510B /* Project object */;
+}
