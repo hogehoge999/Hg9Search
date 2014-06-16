@@ -7,15 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		440ACE0C194EFC9400228DC1 /* Thousand2ch.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 440ACE0B194EFC9400228DC1 /* Thousand2ch.framework */; };
+		440ACE10194EFDB000228DC1 /* GTMNSString+XML.m in Sources */ = {isa = PBXBuildFile; fileRef = 440ACE0F194EFDB000228DC1 /* GTMNSString+XML.m */; };
 		44622923194DAD0F0001510B /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 44622922194DAD0F0001510B /* CoreFoundation.framework */; };
 		44622929194DAD0F0001510B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 44622927194DAD0F0001510B /* InfoPlist.strings */; };
 		44622932194DAE270001510B /* Hg9Search.m in Sources */ = {isa = PBXBuildFile; fileRef = 44622931194DAE270001510B /* Hg9Search.m */; };
 		44622934194DAE340001510B /* Hg9SearchLocalizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 44622933194DAE340001510B /* Hg9SearchLocalizable.strings */; };
 		44622936194DAE3C0001510B /* TH16_Hg9Search.png in Resources */ = {isa = PBXBuildFile; fileRef = 44622935194DAE3C0001510B /* TH16_Hg9Search.png */; };
-		44622938194DAE590001510B /* Thousand2ch.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 44622937194DAE590001510B /* Thousand2ch.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		440ACE0B194EFC9400228DC1 /* Thousand2ch.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Thousand2ch.framework; path = "../../../../Library/Developer/Xcode/DerivedData/Thousand-fmvvdjlnpwfidrckckjqjgbpvxyw/Build/Products/Debug/Thousand2ch.framework"; sourceTree = "<group>"; };
+		440ACE0D194EFD6A00228DC1 /* GTMDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTMDefines.h; sourceTree = "<group>"; };
+		440ACE0E194EFDB000228DC1 /* GTMNSString+XML.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "GTMNSString+XML.h"; sourceTree = "<group>"; };
+		440ACE0F194EFDB000228DC1 /* GTMNSString+XML.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "GTMNSString+XML.m"; sourceTree = "<group>"; };
+		440ACE11194EFF7E00228DC1 /* GTMGarbageCollection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTMGarbageCollection.h; sourceTree = "<group>"; };
 		4462291F194DAD0F0001510B /* Hg9Search.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Hg9Search.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
 		44622922194DAD0F0001510B /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
 		44622926194DAD0F0001510B /* Hg9Search-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Hg9Search-Info.plist"; sourceTree = "<group>"; };
@@ -25,7 +31,6 @@
 		44622931194DAE270001510B /* Hg9Search.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Hg9Search.m; sourceTree = "<group>"; };
 		44622933194DAE340001510B /* Hg9SearchLocalizable.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; path = Hg9SearchLocalizable.strings; sourceTree = "<group>"; };
 		44622935194DAE3C0001510B /* TH16_Hg9Search.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TH16_Hg9Search.png; sourceTree = "<group>"; };
-		44622937194DAE590001510B /* Thousand2ch.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Thousand2ch.framework; path = "../../../../../Library/Developer/Xcode/DerivedData/Thousand-cjunebkrvwamzmbkscubnknqfcgo/Build/Products/Debug/Thousand2ch.framework"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,7 +38,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				44622938194DAE590001510B /* Thousand2ch.framework in Frameworks */,
+				440ACE0C194EFC9400228DC1 /* Thousand2ch.framework in Frameworks */,
 				44622923194DAD0F0001510B /* CoreFoundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -61,7 +66,7 @@
 		44622921194DAD0F0001510B /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				44622937194DAE590001510B /* Thousand2ch.framework */,
+				440ACE0B194EFC9400228DC1 /* Thousand2ch.framework */,
 				44622922194DAD0F0001510B /* CoreFoundation.framework */,
 			);
 			name = Frameworks;
@@ -71,6 +76,10 @@
 			isa = PBXGroup;
 			children = (
 				44622930194DAE1F0001510B /* Hg9Search.h */,
+				440ACE0D194EFD6A00228DC1 /* GTMDefines.h */,
+				440ACE11194EFF7E00228DC1 /* GTMGarbageCollection.h */,
+				440ACE0E194EFDB000228DC1 /* GTMNSString+XML.h */,
+				440ACE0F194EFDB000228DC1 /* GTMNSString+XML.m */,
 				44622931194DAE270001510B /* Hg9Search.m */,
 				44622925194DAD0F0001510B /* Supporting Files */,
 			);
@@ -153,6 +162,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				440ACE10194EFDB000228DC1 /* GTMNSString+XML.m in Sources */,
 				44622932194DAE270001510B /* Hg9Search.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -254,6 +264,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(USER_LIBRARY_DIR)/Developer/Xcode/DerivedData/Thousand-cjunebkrvwamzmbkscubnknqfcgo/Build/Products/Debug",
+					"$(USER_LIBRARY_DIR)/Developer/Xcode/DerivedData/Thousand-fmvvdjlnpwfidrckckjqjgbpvxyw/Build/Products/Debug",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Hg9Search/Hg9Search-Prefix.pch";
@@ -273,6 +284,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(USER_LIBRARY_DIR)/Developer/Xcode/DerivedData/Thousand-cjunebkrvwamzmbkscubnknqfcgo/Build/Products/Debug",
+					"$(USER_LIBRARY_DIR)/Developer/Xcode/DerivedData/Thousand-fmvvdjlnpwfidrckckjqjgbpvxyw/Build/Products/Debug",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Hg9Search/Hg9Search-Prefix.pch";

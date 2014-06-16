@@ -6,6 +6,7 @@
 //  Copyright 2007 __MyCompanyName__. All rights reserved.
 //
 
+#import "GTMNSString+XML.h"
 #import "Hg9Search.h"
 //import "TFInputWindowController.h"
 
@@ -347,7 +348,7 @@ static NSString *__rootPath = @"Hg9Search";
         @"</ns2:threadSearch>\n"
         @"</S:Body>\n"
         @"</S:Envelope>"
-                       , keyword, maxCount];
+                       , [keyword gtm_stringBySanitizingAndEscapingForXML], maxCount];
     return format;
 }
 
