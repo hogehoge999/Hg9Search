@@ -9,6 +9,10 @@
 /* Begin PBXBuildFile section */
 		44622923194DAD0F0001510B /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 44622922194DAD0F0001510B /* CoreFoundation.framework */; };
 		44622929194DAD0F0001510B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 44622927194DAD0F0001510B /* InfoPlist.strings */; };
+		44622932194DAE270001510B /* Hg9Search.m in Sources */ = {isa = PBXBuildFile; fileRef = 44622931194DAE270001510B /* Hg9Search.m */; };
+		44622934194DAE340001510B /* Hg9SearchLocalizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 44622933194DAE340001510B /* Hg9SearchLocalizable.strings */; };
+		44622936194DAE3C0001510B /* TH16_Hg9Search.png in Resources */ = {isa = PBXBuildFile; fileRef = 44622935194DAE3C0001510B /* TH16_Hg9Search.png */; };
+		44622938194DAE590001510B /* Thousand2ch.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 44622937194DAE590001510B /* Thousand2ch.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -17,6 +21,11 @@
 		44622926194DAD0F0001510B /* Hg9Search-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Hg9Search-Info.plist"; sourceTree = "<group>"; };
 		44622928194DAD0F0001510B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		4462292A194DAD0F0001510B /* Hg9Search-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Hg9Search-Prefix.pch"; sourceTree = "<group>"; };
+		44622930194DAE1F0001510B /* Hg9Search.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Hg9Search.h; sourceTree = "<group>"; };
+		44622931194DAE270001510B /* Hg9Search.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Hg9Search.m; sourceTree = "<group>"; };
+		44622933194DAE340001510B /* Hg9SearchLocalizable.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; path = Hg9SearchLocalizable.strings; sourceTree = "<group>"; };
+		44622935194DAE3C0001510B /* TH16_Hg9Search.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TH16_Hg9Search.png; sourceTree = "<group>"; };
+		44622937194DAE590001510B /* Thousand2ch.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Thousand2ch.framework; path = "../../../../../Library/Developer/Xcode/DerivedData/Thousand-cjunebkrvwamzmbkscubnknqfcgo/Build/Products/Debug/Thousand2ch.framework"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -24,6 +33,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				44622938194DAE590001510B /* Thousand2ch.framework in Frameworks */,
 				44622923194DAD0F0001510B /* CoreFoundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -51,6 +61,7 @@
 		44622921194DAD0F0001510B /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				44622937194DAE590001510B /* Thousand2ch.framework */,
 				44622922194DAD0F0001510B /* CoreFoundation.framework */,
 			);
 			name = Frameworks;
@@ -59,6 +70,8 @@
 		44622924194DAD0F0001510B /* Hg9Search */ = {
 			isa = PBXGroup;
 			children = (
+				44622930194DAE1F0001510B /* Hg9Search.h */,
+				44622931194DAE270001510B /* Hg9Search.m */,
 				44622925194DAD0F0001510B /* Supporting Files */,
 			);
 			path = Hg9Search;
@@ -67,7 +80,9 @@
 		44622925194DAD0F0001510B /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				44622935194DAE3C0001510B /* TH16_Hg9Search.png */,
 				44622926194DAD0F0001510B /* Hg9Search-Info.plist */,
+				44622933194DAE340001510B /* Hg9SearchLocalizable.strings */,
 				44622927194DAD0F0001510B /* InfoPlist.strings */,
 				4462292A194DAD0F0001510B /* Hg9Search-Prefix.pch */,
 			);
@@ -125,7 +140,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				44622936194DAE3C0001510B /* TH16_Hg9Search.png in Resources */,
 				44622929194DAD0F0001510B /* InfoPlist.strings in Resources */,
+				44622934194DAE340001510B /* Hg9SearchLocalizable.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -136,6 +153,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				44622932194DAE270001510B /* Hg9Search.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -157,10 +175,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_ARC = NO;
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
@@ -170,6 +189,7 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				DEPLOYMENT_LOCATION = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
@@ -185,8 +205,8 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.9;
-				ONLY_ACTIVE_ARCH = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				ONLY_ACTIVE_ARCH = NO;
 				SDKROOT = macosx;
 			};
 			name = Debug;
@@ -195,10 +215,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_ARC = NO;
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
@@ -209,6 +230,7 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEPLOYMENT_LOCATION = NO;
 				ENABLE_NS_ASSERTIONS = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
@@ -218,7 +240,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
 				SDKROOT = macosx;
 			};
 			name = Release;
@@ -227,10 +249,16 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
+				DEPLOYMENT_LOCATION = YES;
+				DSTROOT = "$(HOME)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(USER_LIBRARY_DIR)/Developer/Xcode/DerivedData/Thousand-cjunebkrvwamzmbkscubnknqfcgo/Build/Products/Debug",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Hg9Search/Hg9Search-Prefix.pch";
 				INFOPLIST_FILE = "Hg9Search/Hg9Search-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Application Support/Thousand/Plugins";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = bundle;
 			};
@@ -240,10 +268,16 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
+				DEPLOYMENT_LOCATION = YES;
+				DSTROOT = "$(HOME)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(USER_LIBRARY_DIR)/Developer/Xcode/DerivedData/Thousand-cjunebkrvwamzmbkscubnknqfcgo/Build/Products/Debug",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Hg9Search/Hg9Search-Prefix.pch";
 				INFOPLIST_FILE = "Hg9Search/Hg9Search-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Application Support/Thousand/Plugins";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = bundle;
 			};
@@ -268,6 +302,7 @@
 				4462292F194DAD0F0001510B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -1,0 +1,5 @@
+"com_kanistar_Thousand_Hg9Search" = "Hg9Search";
+"com_kanistar_Thousand_Hg9Search_info" = "Find 2ch thread for title";
+"Find2ch" = "Find 2ch";
+"searchMax" = "Result Max";
+"requestURLFormat" = "http://www.kanistar.com:8080/Hg9Search/thread";
